@@ -80,7 +80,7 @@ export default function SignIn({ setView }) {
         아직 계정이 없으신가요?{" "}
         <button
           className="text-light-blue-600 font-bold"
-          onClick={() => setView("SIGNIN")}
+          onClick={() => setView("SIGNUP")}
         >
           가입하기
         </button>
